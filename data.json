@@ -1,29 +1,5 @@
 
 
-[
-    
-    { 
-    "name": "Matrix",
-   " year": 2001,
-   " genero": "RPG",
-   " stock":10
-},
-   { 
-    "name": "The Last of Us",
-    "year": 2011,
-    "genero": "Action",
-    "stock": 0
-},
-   { 
-    "name": "God Of War",
-    "year": 2018,
-    "genero": "Action",
-    "stock": 23
-}
-
-
-]
-
 
 
 
