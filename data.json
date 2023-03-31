@@ -1,10 +1,141 @@
 
+{
+    "producto" : [
+    {
+        "name": "Casco de Soldado Imperial",
+        "image": "https://images.unsplash.com/photo-1620138694717-07141b500f57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8JTIzZ2Vla3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        "price": "1900",
+        "id": 1
+},
+{
+    "name": "Casco de Darth Vader",
+    "image": "https://images.unsplash.com/photo-1620950127852-92592960e363?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+    "price": "2900",
+    "id": 2
+},
+{
+    "name": "Muñeco de Maestro Yoda - The Legend",
+    "image": "https://images.unsplash.com/photo-1599002762948-19068b069803?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=822&q=80",
+    "price": "2500",
+    "id": 3
+},
+{
+    "name": "Traje de Guardia Imperial Realista",
+    "image": "https://images.unsplash.com/photo-1599719500956-d158a26ab3ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    "price": "1450",
+    "id": 4
+},
+
+{
+    "name": "Muñeco Baby Yoda - Mandalorian",
+    "image": "https://images.unsplash.com/photo-1601814933824-fd0b574dd592?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80",
+    "price": "6500",
+    "id": 5
+},
+
+{
+    "name": "Trajes Soldados Imperiales x3",
+    "image": "https://images.unsplash.com/photo-1591927675938-b81b071d3e91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "price": "2400",
+    "id": 6
+},
+
+{
+    "name": "Control de PS5",
+    "image": "https://lh3.googleusercontent.com/cWObb4cBICavIQ21nPHLIqQlMermGewLHDqE_MgA9zPGcHBE_YEeqjD5RYgYBdV2EJtFgTs3aXBLVdrUiQyl4b9yvmuRL3H2I9czsMy2",
+    "price": "20000",
+    "id": 7
+},
+{
+    "name": "Control y Consola",
+    "image": "https://lh3.googleusercontent.com/C-SVf5le_nQMoCtXm1o1qNbUVyvZFQdF2BGgRUG7akro12VEX37CQcGsd2dcpSRAb_F2Ltcx_5DiuMCXw6qyqlfFp_ozZh16kBTjIXGrFQ",
+    "price": "90000",
+    "id": 8
+},
+{
+    "name": "Consola Nintendo",
+    "image": "https://lh3.googleusercontent.com/YqvmFuIrCmYvT1D2_H7FawkTQBFmvN8tqRf_PosG8L_glySaxIVQzj2Av19w0Or6zvDWPvEkLHn3LSU2W8lINtRLOI2jOBpcpUXFkKIo",
+    "price": "6500",
+    "id": 9
+}
+,
+{
+    "name": "Controles x2",
+    "image": "https://lh3.googleusercontent.com/YmcpDaqZoQJ4zs4QUW6lcuIDQZd4B-magjs76f8oczVd3og5ZpLO1pEvWb_cI24VAhtBqWikQtsDBXO2uPNPMAV5kdfXkqv0LWvolLFOWQ",
+    "price": "14500",
+    "id": 9
+}
+,
+{
+    "name": "Consola Xbox",
+    "image": "https://lh3.googleusercontent.com/nRuibvSYGnKSLPZ80pTKEbmPL0gpCWa7pTU6EzVjhIQu6p94zdxSCLafDkpxuSFiJqhC38WBjhhQmdnCW8BdPGkB_74rdicYofT8sQA",
+    "price": "18500",
+    "id": 9
+}
+,
+{
+    "name": "Consola Portatil Game Boy - Nintendo",
+    "image": "https://lh3.googleusercontent.com/auLsj89ZT3wkR5bHNqr2-ahOm3wWBiidmax8BP9KHS4H6BzM8KYUljAxG5ntQwVgyrL_Zwswx0Nv0fPASnL-vvnfsL0enzEHy0Cclj4",
+    "price": "100200",
+    "id": 9
+}
+,
+{
+    "name": "Camisa Atari - japon",
+    "image": "https://lh3.googleusercontent.com/0fWwqKHWBuezpa6fpTTa2beQJfC-XKvzf6Ai1DbUIcMmHchwKLx5AraYy-VmqtoY49GUg4nx6fetEBDWaeXlBgzOK0DR9oLVPi6GNEUH",
+    "price": "2500",
+    "id": 9
+}
+,
+{
+    "name": "Camisa SNES",
+    "image": "https://lh3.googleusercontent.com/L7K_7Svu7WtVKyUESyPLmYl8xJqnntd3g92dKshGRkuC0UcUw-7H4L0E7ioDeLwfxpREK-uJwN14aRYOd2zdXRUg90S3XrXbKELep4V5",
+    "price": "3500",
+    "id": 9
+}
+,
+{
+    "name": "Figuras de Sony",
+    "image": "https://images.unsplash.com/photo-1550747545-c896b5f89ff7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80",
+    "price": "8500",
+    "id": 9
+}
+,
+{
+    "name": "Radio Reloj Despertador",
+    "image": "https://images.unsplash.com/photo-1611946258523-9c2bfabb94e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=771&q=80",
+    "price": "16500",
+    "id": 9
+}
+,
+{
+    "name": "Óculo de Realidad Virtual",
+    "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "price": "199999",
+    "id": 9
+}
+,
+{
+    "name": "Disfraz de MegaPikachu",
+    "image": "https://images.unsplash.com/photo-1609372332255-611485350f25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "price": "4200",
+    "id": 9
+}
 
 
 
 
 
 
+
+
+
+
+]
+}
+
+
+ 
 
 
 
