@@ -2,7 +2,7 @@
     this.querySelector('input').focus();
 }); 
 
-
+// console.log(fetch("data.json"));
 
 
 
