@@ -104,9 +104,54 @@ font-weight: bolder;
     align-items: center;
 }
 
+/* Section  */
+
+.container-cards{
+
+}
 
 
 
+.section-productos{
+/* display: flex;
+ justify-content: center;
+flex-direction: column;  */
+/* margin-top: 32rem; */
+}
+.section-producto{
+
+
+}
+.section-h1{
+  font-family:Raleway;
+  font-weight: bold;
+margin-top: 30rem;
+color: #464646;
+font-size: 32px;
+
+}
+.section-precio{
+ color: #464646;
+ font-weight: bolder;
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+.section-ver-producto{
+
+}
+.section-descripcion{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.section-producto1{
+  width: 176px;
+  height: 174px;
+  /* margin-top: 30rem; */
+
+                                              
+}
 
 
 
