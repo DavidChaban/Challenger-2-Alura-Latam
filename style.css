@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* NAV */
+
 nav{
   display: flex;
   flex-direction: row;
@@ -5,17 +13,14 @@ nav{
   align-items: center;
   padding: 32px 0px;
 }
-.input-wrapper {
+.nav-input-wrapper {
   position: relative;
   display:inline-block;
-
   width: 271px; 
 }
-
-.input {
+.nav-input {
   box-sizing: border-box;
   background-color:#a2a2a226;
- 
   padding: 13px 0px 17px 13px;
   width: 310px;
   height:hug(50px);
@@ -24,12 +29,7 @@ nav{
   border:none;
   height: 2.3REM;
 }
-
-.input.password {
-  padding: 15px 45px 15px 15px;
-}
-
-.input-icon {
+.nav-input-icon {
   color: #918080;
   position: absolute;
   width: 20px;
@@ -39,14 +39,7 @@ nav{
   transform: translateY(-50%);
   Padding:8px, 16px, 8px, 16px;
 }
-
-.input-icon.password {
-  left: unset;
-  right: 12px;
-}
-
-
-.button-login{
+.nav-button-login{
   color: #2A7AE4;
   width: 150px;
   height: 19px;
@@ -62,34 +55,54 @@ nav{
   align-items: center;
   border-radius: 2px solid blue;
   border: 2px solid #2A7AE4;
-  
 }
 
-
+/* Header */
+.header-container{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+}
 .header-banner{
+  position: absolute;
   max-width: 100%;
   width:2000px;
   height: 480px;
   object-fit:cover;
-
-
- 
 }
 .header-h1{
   position: absolute;
-  color: white;
+    color: white;
+    z-index: 2;
+    top: 21rem;
+    left: 10rem;
+font-weight: bolder;
 }
 .header-subtitulo{
   position: absolute;
-  color: white;
+    color: white;
+    z-index: 2;
+    top: 25rem;
+    left: 10rem;
+    font-weight: bolder;
+
 }
 .header-button{
+  width: 140px;
+  height: 3.5rem;
   position: absolute;
-  color: white;
-  background-color: red;
+    color: white;
+    background-color: #2A7AE4;
+    z-index: 2;
+    top: 27.8rem;
+    left: 10rem;
  
 }
-
+.header-container2{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
