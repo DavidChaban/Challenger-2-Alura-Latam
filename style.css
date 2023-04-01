@@ -20,30 +20,32 @@ nav{
 }
 .nav-input {
   box-sizing: border-box;
-  background-color:#a2a2a226;
-  padding: 13px 0px 17px 13px;
-  width: 310px;
-  height:hug(50px);
-  border-radius:20px; 
-  top:5px;
-  border:none;
+  background-color: #a2a2a226;
+  padding: 20px 0px 25px 13px;
+  width: 459px;
+  height: hug(50px);
+  border-radius: 20px;
+  top: -22px;
+  border: none;
   height: 2.3REM;
+  position: absolute;
+  margin-left: -22rem;
 }
 .nav-input-icon {
   color: #918080;
   position: absolute;
-  width: 20px;
+  width: 29px;
   height: 20px;
-  left: 275px;
-  top: 50%;
+  left: 62px;
+  top: 53%;
   transform: translateY(-50%);
   Padding:8px, 16px, 8px, 16px;
 }
 .nav-button-login{
   color: #2A7AE4;
-  width: 150px;
+  width: 179px;
   height: 19px;
-  padding: 18px 18px 18px 18px;
+  padding: 25px 18px 25px 18px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
@@ -55,6 +57,8 @@ nav{
   align-items: center;
   border-radius: 2px solid blue;
   border: 2px solid #2A7AE4;
+  margin-right: 1rem;
+
 }
 
 /* Header */
