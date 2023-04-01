@@ -140,6 +140,16 @@ nav{
   display: flex;
 
 }
+.section-productos2{
+  display: flex;
+  margin-top: 11rem;
+
+}
+.section-productos3{
+  display: flex;
+  margin-top: 11rem;
+
+}
 .section-producto{
   display: flex;
   flex-direction: column;
@@ -147,9 +157,6 @@ nav{
 }
 .section-star-flecha{
   display: flex;
-
-  
-
 }
 .section-view{
   color: #2A7AE4;
