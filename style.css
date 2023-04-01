@@ -128,13 +128,17 @@ nav{
   gap: 40px;
   align-items: flex-end;
   margin-left: 11rem;
-  margin-top: -6rem;
+  margin-top: -1rem;
 }
+
 .section-fusion{
   display: flex;
   /* flex-direction: column; */
 }
-
+.section-2container{
+  display: flex;
+  flex-direction: column;
+}
 
 .section-productos{
   display: flex;
@@ -150,11 +154,7 @@ nav{
   margin-top: 11rem;
 
 }
-.section-producto{
-  display: flex;
-  flex-direction: column;
 
-}
 .section-star-flecha{
   display: flex;
 }
@@ -170,13 +170,14 @@ nav{
   margin-top: 1px;
   text-decoration: none;
   margin-left: 1.5rem;
-
-
+  
+  
 }
 .section-view-arrow2{
   display: flex;
-  margin-left:86.4rem;
+  margin-left:97.4rem;
   position: absolute;
+  margin-top: -4.5rem;
 }
 .section-arrow{
   background-size: 100%;
@@ -189,41 +190,93 @@ nav{
   
 }
 .section-h1{
-  font-family:Raleway;
+  font-family: Raleway;
   font-weight: bold;
-/* margin-top: 30rem; */
-color: #464646;
-font-size: 42px;
-
+  margin-top: 0rem;
+  color: #464646;
+  font-size: 42px;
+  margin-left: 11rem;
+  margin-top: -81px;
 }
 .section-precio{
- color: #464646;
- font-weight: bolder;
- margin: 0px;
- padding: 0px;
- box-sizing: border-box;
+  color: #464646;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 .section-ver-producto{
-text-decoration: none;
-color: #2A7AE4;
-font-weight: bold;
-font-size:19px;
+  text-decoration: none;
+  color: #2A7AE4;
+  font-weight: bold;
+  font-size:19px;
 }
 .section-descripcion{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
+
+.section-producto{
+  display: flex;
+  flex-direction: column; 
+  transition-duration: 0.8seg;
+  transition-delay: 0.2s;
+
+} 
+.section-producto:hover{
+  transition: 0.2seg;
+ /* border: 2px solid #2A7AE4; */
+ transition: #2A7AE4 0.8s linear 0.2s;
+ background-color: #f8f9fe;
+}
+
 .section-producto1{
   width: 225px;
   height: 225px;
-  /* margin-top: 30rem; */
   object-fit: cover;
-
-                                              
+  transition-duration: 0.8seg;
+  transition-delay: 0.2s;
 }
 
 
+.section-producto:hover{
+  border: 1px solid #2A7AE4;
+
+  cursor:pointer;
+  
+}
+.section-producto2:hover{
+  border: 1px solid #2A7AE4;
+ 
+  cursor:pointer;
+  
+  
+}
+.section-producto3:hover{
+  border: 1px solid #2A7AE4;
+  transition: 4seg;
+  
+  
+}
+.section-producto4:hover{
+  border: 1px solid #2A7AE4;;
+  transition: 4seg;
+  
+  
+}
+.section-producto5:hover{
+  border: 1px solid #2A7AE4;
+  transition: 4seg;
+  
+  
+}
+.section-producto6:hover{
+  border: 1px solid #2A7AE4;
+  transition: 4seg;
+  
+  
+}
 
 
 
