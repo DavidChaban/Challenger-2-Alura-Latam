@@ -358,7 +358,18 @@ margin-top: 12px;
 color: white;
 }
 
+footer{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 19px;
+  font-weight: bold;
+  
 
+
+}
 
 
 
