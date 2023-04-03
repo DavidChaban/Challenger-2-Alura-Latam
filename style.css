@@ -278,14 +278,85 @@ nav{
   
 }
 
+/*  Form */
+.section-img-logo{
+margin-bottom: 11rem;
+
+
+}
+
+.section-formcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
+  gap: 115px;
+  width: 1903px;
+  height: 368px;
+  background-color: #EAF2FD;
 
 
 
+}
+.section-p-hable{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-weight: bold;
+color: #464646;
+
+}
+
+.section-form-i{
+  display: flex;
+  flex-direction: column;
+}
+.section-input-1{
+  width: 560px;
+  height: 56px;
+  background:#FFFFFF;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  border: none;
+  margin-bottom: 6px;
+}
+.section-input-2{
+  width: 560px;
+  height: 72px;
+  background:#FFFFFF;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  border: none;
+  margin-top: 6px;
 
 
 
+}
 
-
+.section-btn-form{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+width: 144px;
+height: 51px;
+background: #2A7AE4;
+flex: none;
+order: 2;
+flex-grow: 0;
+border: none;
+margin-top: 12px;
+color: white;
+}
 
 
 
