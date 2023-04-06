@@ -31,17 +31,17 @@
 
 
 <main>
-    <form class="add-product-form">
+    <form class="add-product-form" data-form>
         <div class="section-form-i">
             <p class="section-p-hable2">Agregar nuevo producto</p>
             
              
-            <input class="section-input-01" placeholder="URL de imagen"> </input> 
-            <input class="section-input-01" placeholder="Categoría"> </input> 
-            <input class="section-input-01" placeholder="Nombre del producto"> </input> 
-            <input class="section-input-01" placeholder="Precio del producto"> </input> 
+            <input class="section-input-01" type="text" placeholder="Nombre del producto" data-name required> </input> 
+            <input class="section-input-01" type="url" placeholder="URL de imagen" data-url required> </input> 
+            <input class="section-input-01" type="number" placeholder="Precio del producto" data-price required> </input> 
+            <!-- <input class="section-input-01" placeholder="Categoría"> </input>  -->
+            <input class="section-input-2" type="text" placeholder="Descripcion del producto" data-description required> </input>
           
-            <input class="section-input-2" type="text" placeholder="Descripcion del producto"> </input>
             <button class="section-btn-form2">Agregar producto</button>
         
         
