@@ -32,7 +32,11 @@ const crearProductos = (image, name, price) => {
 
 
 
+document.querySelector('.input-icono').addEventListener('click', function() {
+    this.querySelector('input').focus();
+}); 
 
+// console.log(fetch("data.json"));
 
 export const productoServicios = {
     listaProductos,
