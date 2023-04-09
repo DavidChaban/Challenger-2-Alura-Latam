@@ -1,3 +1,5 @@
+
+ 
 //get
 const listaProductos = () => {
     fetch("http://localhost:3000/producto")
@@ -7,7 +9,7 @@ const listaProductos = () => {
 
 // post
 
-const crearProductos = (image, name, price) => {
+const crearProductos = (image, name, price, description,id) => {
     fetch('http://localhost:3000/producto',{
     method:" POST",
     headers: {
@@ -16,7 +18,10 @@ const crearProductos = (image, name, price) => {
     body: JSON.stringify({
         image,
         price,
-        name
+        name,
+        description,
+        id,
+        link:'../screens/edit-product.html'
     })
     }).then(response => {
         if(response.ok){
@@ -32,9 +37,9 @@ const crearProductos = (image, name, price) => {
 
 
 
-document.querySelector('.input-icono').addEventListener('click', function() {
-    this.querySelector('input').focus();
-}); 
+// document.querySelector('.input-icono').addEventListener('click', function() {
+//     this.querySelector('input').focus();
+// }); 
 
 // console.log(fetch("data.json"));
 

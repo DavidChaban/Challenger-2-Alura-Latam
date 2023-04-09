@@ -23,9 +23,9 @@
         clip-rule="evenodd" />
     </svg>
 
-    <input type="search" class="nav-input" placeholder="¿Qué deseas buscar?" />
+    <input type="search" id="searchCapture" class="nav-input" placeholder="¿Qué deseas buscar?" />
   </div>
-<a class="login-a" href="../screens/login.html">  <button class="nav-button-login">Login</button>
+<a class="login-a" href="../screens/login.html">  <button type="button" onclick="" class="nav-button-login">Login</button>
 </a>
 
 </nav>
@@ -47,7 +47,7 @@
   
 
 
-  <section class="section-productos" data-product>
+  <section class="section-productos" >
 
     <div class="section-2container">
 
@@ -66,7 +66,7 @@
 
 
 
-    <div class="container-cards">
+    <div class="container-cards" data-product>
 
 
      
@@ -357,10 +357,10 @@
     <p class="section-p-hable">Hable con nosotros</p>
     
      
-    <input class="section-input-1" placeholder="Nombre"> </input> 
+    <input type="text" name="hablenos" id="hablenos" class="section-input-1" placeholder="Nombre"> </input> 
   
-    <input class="section-input-2" type="text" placeholder="Escribe tu mensaje" placelabel="holaa"> </input>
-    <button class="section-btn-form">Enviar mensaje</button>
+    <input type="text" name="hablenos" class="section-input-2" type="text" placeholder="Escribe tu mensaje"></input>
+    <button type="button" class="section-btn-form">Enviar mensaje</button>
 
 
   </div>
@@ -372,7 +372,10 @@
 
 
 
-  <script type="module" src="/servicios/controllers/productos-controller.js"></script>
+  <!-- <script type="module" src="/servicios/controllers/crear-productos.controller.js"></script> -->
+  <!-- <script type="text/javascript" src="/servicios/productos-servicios.js"> </script> -->
+  <!-- <script src="../main.js"></script> -->
+  <script src="../servicios/controllers/productos-controller.js"></script>
 </body>
 
 
