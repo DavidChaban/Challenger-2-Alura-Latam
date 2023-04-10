@@ -16,14 +16,14 @@
     "id": 2
 },
 {
-    "name": "Muñeco de Maestro Yoda - The Legend",
+    "name": "Muñeco de Maestro Yoda",
     "image": "https://images.unsplash.com/photo-1599002762948-19068b069803?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=822&q=80",
     "price": "2500",
     "description": "lorem ipsum",
     "id": 3
 },
 {
-    "name": "Traje de Guardia Imperial Realista",
+    "name": "Traje de Guardia Imperial",
     "image": "https://images.unsplash.com/photo-1599719500956-d158a26ab3ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
     "price": "1450",
     "description": "lorem ipsum",
@@ -31,7 +31,7 @@
 },
 
 {
-    "name": "Muñeco Baby Yoda - Mandalorian",
+    "name": "Baby Yoda-Mandalorian",
     "image": "https://images.unsplash.com/photo-1601814933824-fd0b574dd592?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80",
     "price": "6500",
     "description": "lorem ipsum",

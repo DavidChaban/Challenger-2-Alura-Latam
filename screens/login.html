@@ -36,14 +36,13 @@
     <h2 class="login-titulo">Iniciar Sesión</h2>
     <form class="login-container">
 
-        <input type="text"  data-form-input  class="login-input" placeholder="Escriba su correo electronico"> </input> 
+        <input type="email"  data-form-input  class="login-input" placeholder="Escriba su correo electronico" required> </input> 
           
-        <input type="text" data-form-pass  class="login-input2" placeholder="Escriba su contraseña" > </input>
+        <input type="password" name="password" id="password"  data-form-pass  class="login-input2" placeholder="Escriba su contraseña" required pattern="˄(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%˄&*_=+-]).{6,12}$" title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener carácteres especiales " > </input>
         <button type="submit" data-form-btn class="login-btn-form">Entrar</button>
 
 
-
-
+        <!-- ˄(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%˄&*_=+-]).{6,12}$ -->
 
 
     </form>
