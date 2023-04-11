@@ -1,23 +1,20 @@
-console.log(fetch('("GET","http://localhost:3000/producto");'))
+import {productoServicios} from "../productos-servicios";
 
-  async function fetchApi(){
-    let producto = await fetch('http://localhost:3000/producto');
-    producto = await data.json()
-    console.log(producto)
+const containerStar = document.querySelector("[data-product]");
+const containerConsolas = document.querySelector("[data-product2]");
+const containerDiversos = document.querySelector("[data-product3]");
 
-  }
-
-
-
-const data = (name, image, price, description, id) => {
+const nuevoProducto = (name, image, price,category, description, id,link) => {
   const card = document.createElement("div");
-
+  card.classList.add("product-card")
   // let card2 = document.getElementById("container-cards")
 
   
 
 
   const contenido = `
+
+  <a href="${link}?id=${id}" data-verproducto><img src="${imagen}" alt="${nombre}"></a>
           <div class="section-producto">
 
         <img
@@ -27,7 +24,7 @@ const data = (name, image, price, description, id) => {
         <p class="section-precio">$${price}</p>
         <p class="producto-descripcion2">${description}
         </p>
-        <a class="section-ver-producto" href="../screens/product.html?id=${id}">Ver Producto</a>
+        <a  href="${link}?id=${id}" type="button" class="section-ver-producto data-verproducto" >Ver Producto</a>
 
       </div>
       
@@ -38,5 +35,36 @@ const data = (name, image, price, description, id) => {
 
   return card;
 };
-const productos = document.querySelector('[data-product]');
+
+
+productoServicios.listaProductos()
+    .then(async respuesta => {
+        try {
+
+            await respuesta.forEach(({ name, image, price,category, description, id,link }) => {
+                const nuevaLinea = nuevoProducto(name, image, price,category, description, id,link);
+
+                switch (category) {
+                    case "Star War":
+                        containerStar.appendChild(nuevaLinea);
+                        break;
+
+                    case "Consolas":
+                        containerConsolas.appendChild(nuevaLinea);
+                        break;
+
+                    case "Diversos":
+                        containerDiversos.appendChild(nuevaLinea);
+
+                    default:
+                        category = "";
+                        break;
+                }
+            })
+        } catch (error) {
+            console.log(error)
+        }
+
+    })
+
 
