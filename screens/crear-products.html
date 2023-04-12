@@ -37,12 +37,12 @@
             
              
             <input class="section-input-01" type="text" placeholder="Nombre del producto" data-name required> </input> 
-            <input class="section-input-01" type="url" placeholder="URL de imagen" data-url required> </input> 
+            <input class="section-input-01" type="url" placeholder="URL de imagen" data-image required> </input> 
             <input class="section-input-01" type="number" placeholder="Precio del producto" data-price required> </input> 
-            <!-- <input class="section-input-01" placeholder="Categoría"> </input>  -->
-            <input class="section-input-2" type="text" placeholder="Descripcion del producto" data-description required> </input>
+            <input class="section-input-01" placeholder="Categoría" data-agregar-category > </input> 
+            <input class="section-input-2" type="text" placeholder="Descripcion del producto" data-agregar-description required> </input>
           
-            <button class="section-btn-form2">Agregar producto</button>
+            <button type="submit" value="Agregar Producto" class="section-btn-form2" data-agregar-producto>Agregar producto</button>
         
         
           </div>
@@ -110,7 +110,7 @@
 
 
 
-<script src="../servicios/controllers/productos-controller.js"></script>
+<script src="../servicios/controllers/crear-productos.js"></script>
 </body>
 <footer>
   <small> Desarrollado por David Chaban - 2023  &copy;  Todos los derechos reservados por Alura</small>
